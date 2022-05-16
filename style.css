@@ -1,0 +1,168 @@
+body {
+  background-image: url("imagenes/background.jpg"); 
+  background-position: center; 
+  background-size: cover; 
+  min-height: 100vh ;
+  backdrop-filter: blur(10px);  
+}
+
+header {  
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(16, 181, 241);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(37, 79, 78);
+  font-family: "neuropol";
+  padding-top: 20px;  
+}
+
+main {
+  text-align: center;
+}
+
+.texto1 {
+ float: left;
+}
+
+#texto1 {  
+  margin: 100px 150px;
+  background-color: #29b0c860;   
+  width: 350px; 
+  height: 500px;
+  color:#CCCCCC; 
+  font-family: "Ubuntu", sans-serif; 
+  font-size: 20px;
+  background-color: rgba(8, 128, 155, 0.300);
+  border: 3px solid #949393;
+  border-radius: 10px;
+  outline: none;  
+  resize: none;
+}
+
+.botones {
+  position: relative;    
+  display: inline-flex;
+  flex-direction: column;
+  top: 340px;  
+}
+
+#botonCodificar {
+  width: 135px;
+  margin-bottom: 50px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+  color: #CCCCCC;
+  background-color: rgba(8, 128, 155, 0.300);
+  border-radius: 10px;
+  border: 2px solid #949393;  
+}
+
+#botonCodificar:hover {
+  font-weight: bold;
+  background-color: rgba(8, 128, 155, 0.300); 
+  cursor: pointer;  
+}
+
+
+#botonDecodificar {
+  width: 135px;
+  margin-bottom: 50px;  
+  padding: 10px;
+  text-decoration: none;
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+  color: #CCCCCC;
+  background-color: rgba(8, 128, 155, 0.300);
+  border-radius: 10px;
+  border: 2px solid #949393;  
+}
+
+#botonDecodificar:hover {
+  font-weight: bold;
+  background-color: rgba(8, 128, 155, 0.300);
+  cursor: pointer;
+}
+
+#botonCopiar {  
+  width: 135px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+  color: #CCCCCC;
+  background-color: rgba(8, 128, 155, 0.300);
+  border-radius: 10px;
+  border: 2px solid #949393;
+}
+
+#botonCopiar:hover {
+  font-weight: bold;
+  background-color: rgba(8, 128, 155, 0.300);
+  cursor: pointer;
+}
+
+.texto2 {
+  float: right;
+}
+
+#texto2 {  
+  display: inline;
+  margin: 100px 150px;
+  background-color: rgba(8, 128, 155, 0.300);       
+  width: 350px; 
+  height: 500px;
+  color:#CCCCCC; 
+  font-family: "Ubuntu", sans-serif; 
+  font-size: 20px;
+  border: 3px solid #949393;
+  border-radius: 10px;
+  outline: none;  
+  resize: none;
+}
+
+footer {
+  position: absolute;  
+  height: 50px;
+  bottom: 0%;
+  width: 100%;
+  background-color: rgba(8, 128, 155, 0.7);  
+  padding-bottom: 30px;
+}
+
+.logoAlura {
+  float: left;
+  padding-top: 20px;
+  width: 100px;  
+}
+
+.logoLinkedin { 
+  float: right;
+  width: 40px;
+  padding-top: 20px;
+  padding-right: 20px;      
+}
+
+.copyright {
+  text-align: center;  
+  font-size: 13px;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 60px;     
+}
+
+@font-face {
+  font-family: "neuropol";
+  src: url(fuentes/neuropol.otf);
+}
+
+@font-face {
+  font-family: "Ubuntu", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+}
+
+::placeholder {
+  color: #CCCCCC;
+  font-size: 20px;  
+}
