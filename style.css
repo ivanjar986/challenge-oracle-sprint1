@@ -1,8 +1,7 @@
 body  {
   background-image:url("imagenes/background.jpg");
   background-size:cover;
-  background-position:center;
-  width: 100%;
+  background-position:center;  
   height:100vh;
   backdrop-filter:blur(10px);
 }
