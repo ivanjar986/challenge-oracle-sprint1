@@ -47,11 +47,13 @@ botonDecodificar.onclick = decodificar;
 
 function copiar() {
   let textoCopiado = document.querySelector("#texto2");
-  textoCopiado.select();
-  document.execCommand("copy");
-  // location.reload();
-  
-  alert("Su texto ha sido copiado.");
+  if (texto2.value == "") {
+    alert("No se encontró ningún texto para copiar.")
+  } else {
+    textoCopiado.select();
+    document.execCommand("copy");  
+    alert("Su texto ha sido copiado.");
+  }
 }
 
 botonCopiar.onclick = copiar;
