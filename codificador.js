@@ -49,7 +49,7 @@ function copiar() {
   let textoCopiado = document.querySelector("#texto2");
   textoCopiado.select();
   document.execCommand("copy");
-  location.reload();
+  // location.reload();
   
   alert("Su texto ha sido copiado.");
 }
