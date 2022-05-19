@@ -20,7 +20,7 @@
 		<main>
 
 			<div class="texto1">
-				<textarea cols="30" rows="10" id="texto1"	type="text" placeholder="Ingrese su texto aquí. 			Evite incluir mayúsculas, caracteres numéricos y especiales."></textarea>	
+				<textarea cols="30" rows="10" id="texto1"	type="text" placeholder="Ingrese su texto aquí. 			Evite incluir mayúsculas, caracteres numéricos y especiales." onkeypress="return (event.charCode == 241 || event.charCode == 32 || (event.charCode >= 97 && event.charCode <= 122))"></textarea>	
 			</div>				
 
 			<div class="botones">					
