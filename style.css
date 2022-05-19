@@ -29,7 +29,7 @@ main{
   width:350px;
   height:500px;
   color:#CCCCCC;
-  font-family:"Ubuntu",sans-serif;
+  font-family:Ubuntu,sans-serif;
   font-size:20px;
   background-color:rgba(8, 128, 155, 0.300);
   border:3px solid #949393;
@@ -103,7 +103,7 @@ main{
   width:350px; 
   height:500px;
   color:#CCCCCC; 
-  font-family:"Ubuntu",sans-serif;
+  font-family:Ubuntu,sans-serif;
   font-size:20px;
   border:3px solid #949393;
   border-radius:10px;
@@ -132,7 +132,7 @@ footer{
 .copyright{
   text-align:center;  
   font-size:13px;
-  font-family:"Ubuntu", sans-serif;
+  font-family:Ubuntu,sans-serif;
   padding-top:60px;     
 }
 @font-face{
@@ -140,7 +140,7 @@ footer{
   src:url(fuentes/neuropol.otf);
 }
 @font-face{
-  font-family:"Ubuntu",sans-serif;
+  font-family:"Ubuntu";
   src:url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 }
 ::placeholder{
