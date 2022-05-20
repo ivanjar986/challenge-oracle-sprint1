@@ -19,7 +19,7 @@ h1 {
 }
 main{
   text-align: center;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 20px auto;  
 }
 .texto1{
@@ -29,7 +29,7 @@ main{
   margin:50px 40px;
   background-color:#29b0c860;
   width:350px;
-  height:450px;
+  height:400px;
   color:#CCCCCC;
   font-family:Ubuntu,sans-serif;
   font-size:20px;
@@ -43,7 +43,7 @@ main{
   position:relative;
   display:inline-flex;
   flex-direction:column;
-  top: 250px;
+  top: 200px;
 }
 #botonCodificar{
   width:135px;
@@ -103,7 +103,7 @@ main{
   margin:50px 40px;
   background-color:#29b0c860;
   width:350px;
-  height:450px;
+  height:400px;
   color:#CCCCCC;
   font-family:Ubuntu,sans-serif;
   font-size:20px;
