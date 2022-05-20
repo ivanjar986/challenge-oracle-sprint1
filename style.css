@@ -1,7 +1,7 @@
 body  {
   background-image:url("imagenes/background.jpg");
   background-size:cover;
-  background-position:center;  
+  background-position:center;
   height:100vh;
   backdrop-filter:blur(10px);
 }
@@ -18,16 +18,18 @@ h1 {
   font-family:"neuropol";
 }
 main{
-  text-align:center;
+  text-align: center;
+  max-width: 75em;
+  margin: 1.25rem auto;  
 }
 .texto1{
   float: left;
 }
 #texto1{
-  margin:100px 150px;
+  margin:80px 50px;
   background-color:#29b0c860;
   width:350px;
-  height:500px;
+  height:450px;
   color:#CCCCCC;
   font-family:Ubuntu,sans-serif;
   font-size:20px;
@@ -41,7 +43,7 @@ main{
   position:relative;
   display:inline-flex;
   flex-direction:column;
-  top: 340px;
+  top: 280px;
 }
 #botonCodificar{
   width:135px;
@@ -98,16 +100,17 @@ main{
 }
 #texto2{
   display:inline;
-  margin:100px 150px;
-  background-color:rgba(8, 128, 155, 0.300);       
-  width:350px; 
-  height:500px;
-  color:#CCCCCC; 
+  margin:80px 50px;
+  background-color:#29b0c860;
+  width:350px;
+  height:450px;
+  color:#CCCCCC;
   font-family:Ubuntu,sans-serif;
   font-size:20px;
+  background-color:rgba(8, 128, 155, 0.300);
   border:3px solid #949393;
   border-radius:10px;
-  outline:none;  
+  outline:none;
   resize:none;
 }
 footer{
