@@ -19,8 +19,8 @@ h1 {
 }
 main{
   text-align: center;
-  max-width: 75em;
-  margin: 1.25rem auto;  
+  max-width: 1200px;
+  margin: 20px auto;  
 }
 .texto1{
   float: left;
