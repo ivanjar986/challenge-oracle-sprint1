@@ -26,14 +26,13 @@ main{
   float: left;
 }
 #texto1{
-  margin:50px 40px;
-  background-color:#29b0c860;
+  margin:50px 40px;  
   width:350px;
   height:400px;
   color:#CCCCCC;
   font-family:Ubuntu,sans-serif;
   font-size:20px;
-  background-color:rgba(8, 128, 155, 0.300);
+  background-color:rgba(29, 57, 63, 0.400);
   border:3px solid #949393;
   border-radius:10px;
   outline:none;
@@ -53,7 +52,7 @@ main{
   font-family:Ubuntu,sans-serif;
   font-size:20px;
   color:#CCCCCC;
-  background-color:rgba(8, 128, 155, 0.300);
+  background-color:rgba(29, 57, 63, 0.500);
   border-radius:10px;
   border:2px solid #949393;
 }
@@ -70,7 +69,7 @@ main{
   font-family:Ubuntu,sans-serif;
   font-size:20px;
   color:#CCCCCC;
-  background-color:rgba(8, 128, 155, 0.300);
+  background-color:rgba(29, 57, 63, 0.400);
   border-radius:10px;
   border:2px solid #949393;  
 }
@@ -86,7 +85,7 @@ main{
   font-family:Ubuntu,sans-serif;
   font-size:20px;
   color:#CCCCCC;
-  background-color:rgba(8, 128, 155, 0.300);
+  background-color:rgba(29, 57, 63, 0.400);
   border-radius:10px;
   border:2px solid #949393;
 }
@@ -100,14 +99,13 @@ main{
 }
 #texto2{
   display:inline;
-  margin:50px 40px;
-  background-color:#29b0c860;
+  margin:50px 40px;  
   width:350px;
   height:400px;
   color:#CCCCCC;
   font-family:Ubuntu,sans-serif;
   font-size:20px;
-  background-color:rgba(8, 128, 155, 0.300);
+  background-color:rgba(29, 57, 63, 0.400);
   border:3px solid #949393;
   border-radius:10px;
   outline:none;
